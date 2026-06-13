@@ -199,7 +199,7 @@ local function computeFrame()
 	
 	local falling = v > 0
     
-	local rawA = y[1] > 0.05
+	local rawA = y[1] > 0.02
 	local B = y[2] > 0.1
 	local U = y[3] > 0.5
 	local D = y[4] > 0.2
